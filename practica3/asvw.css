@@ -1,0 +1,40 @@
+h1{
+    color: rgb(220, 243, 245);
+    text-align: center;
+    background-color: deepskyblue;
+    padding: 30px;
+}
+
+body{
+    background-color: dodgerblue;
+}
+
+.cont{
+    display: flex;
+    color: rgb(220, 243, 245);
+}
+
+div{
+    width: 33%;
+    background-color: deepskyblue;
+    text-align: center;
+    padding: 40px;
+    font-size: larger;
+    margin: 5px;
+    color: rgb(220, 243, 245);
+}
+
+.div{
+    width: 100%;
+    background-color: deepskyblue;
+    text-align: left;
+    padding: 40px;
+    font-size: larger;
+    margin: 5px;
+    color: rgb(220, 243, 245);
+}
+
+.x{
+    background-color: dodgerblue;
+    text-align: left;
+}

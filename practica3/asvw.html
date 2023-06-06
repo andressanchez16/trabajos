@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Andrés Sánchez-Vite</title>
+    <link rel="stylesheet" href="asvw.css">
+</head>
+<body>
+    <h1><img src="buscar.png" width="20px" height="20px"> Investigación</h1>
+    <article class="cont">
+        <div>
+            <h3>¿Para qué se usa el elemento form?</h3>
+            <p>Se utiliza para crear un formulario interactivo que permite a los usuarios enviar datos al servidor web.</p>
+        </div>
+        <div>
+            <h3>¿Para qué se usa el elemento input?</h3>
+            <p>para crear campos interactivos donde los usuarios pueden ingresar datos. Es uno de los elementos más versátiles y ampliamente utilizados en la construcción de formularios</p>
+        </div>
+        <div>
+            <h3>¿Cómo se usa el elemento input?</h3>
+            <p>El elemento label en HTML se utiliza para asociar una etiqueta legible con un campo de entrada interactivo, como un elemento input. Proporciona una descripción textual para el campo de entrada, lo que mejora la usabilidad y accesibilidad de un formulario.</p>
+        </div>
+    </article>
+    <article class="cont">
+        <div class="div">
+            <h3>El elemento input puede generar diferentes tipos de campos de entrada, dependiendo del valor del atributo type. Algunos de los tipos más comunes son:</h3>
+                <ul>
+                    <li>text: Campo de entrada para escribir texto.</li>
+                    <li>password: Campo de entrada de contraseña, oculta los caracteres.</li>
+                    <li>email: Campo de entrada de mail y verifica que el valor ingresado tenga un formato de dirección de correo electrónico válido.</li>
+                    <li>checkbox: Casilla de verificación que permite a los usuarios seleccionar una o varias opciones.</li>
+                    <li>radio: Botón de opción que permite a los usuarios seleccionar una única opción de un conjunto de opciones.</li>
+                    <li>file: Campo de carga de archivos.</li>
+                    <li>submit: Botón de envío que, al hacer clic, envía los datos de un formulario al servidor web especificado en el atributo form o al formulario más cercano en la jerarquía del documento.</li>
+                </ul>
+            </div>
+    </article>
+
+    <h1 class="x">Ejemplo:</h1>
+    <form action="/procesar-formulario" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      
+        <input type="submit" value="Enviar">
+      </form>
+</body>
+</html>

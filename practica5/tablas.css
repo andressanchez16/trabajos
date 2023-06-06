@@ -1,0 +1,21 @@
+table{
+    width: 100%;
+    background-color: rgb(123, 202, 228);
+    border: 1px solid dodgerblue;
+}
+  
+th, td {
+    width: 20%;
+    border: 1px solid dodgerblue;
+    padding: 20px;
+}
+
+body{
+    color: white;
+    background-color: rgb(179, 223, 240);
+}
+
+th{
+    background-color: rgb(30, 172, 228);
+    text-align: center;
+}
