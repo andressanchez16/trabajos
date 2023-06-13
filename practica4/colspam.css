@@ -1,0 +1,46 @@
+table{
+    width: 100%;
+    border: 3px solid white;
+    border-collapse: collapse;
+}
+  
+.tabla1{
+    width: 33%;
+    border: 2px solid white;
+    padding: 20px;
+}
+
+body{
+    color: white;
+    background-color: lightblue;
+}
+
+.tabla2{
+    width: 25%;
+    border: 2px solid white;
+    padding: 20px;
+}
+
+.c1{
+    background-color: crimson;
+}
+
+.c2{
+    background-color: deepskyblue;
+}
+
+.c3{
+    background-color: orange;
+}
+
+.c4{
+    background-color: greenyellow;
+}
+
+.c5{
+    background-color: gold;
+}
+
+td{
+    padding: 20px;
+}
